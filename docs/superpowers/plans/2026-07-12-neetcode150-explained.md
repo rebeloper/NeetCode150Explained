@@ -390,7 +390,7 @@ for f in <category's files>; do
   echo "$f: $(grep -c '^## ' "$f") sections, $(grep -c '```swift' "$f") swift blocks, $(grep -c '\[.*\](\./[0-9].*\.md)' "$f") cross-links"
 done
 ```
-Expected: every file reports 7 sections, >= 2 swift blocks (brute force + optimal), >= 2 cross-links (1 Data Structure + 1 Pattern minimum).
+Expected: every file reports 8 sections (Problem template has 8 headers: 🍽️🚩🐢🚀🔑🔗🧸✅), >= 2 swift blocks (brute force + optimal), >= 2 cross-links (1 Data Structure + 1 Pattern minimum).
 
 - [ ] **Step 3: Add all entries to Home.md**
 
